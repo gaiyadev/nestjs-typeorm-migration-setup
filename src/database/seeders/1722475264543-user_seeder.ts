@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { Seeder, SeederFactoryManager } from 'typeorm-extension';
 import { User } from '../../user/entities/user.entity';
-import { connectionSource } from '../../config/typeorm';
+import { connectionSource } from '../config/typeorm';
 
 export class UserSeeder1722475264543 implements Seeder {
   track = false;
@@ -18,7 +18,11 @@ export class UserSeeder1722475264543 implements Seeder {
       },
       {
         id: 2,
-        name: 'Calebr',
+        name: 'Doe',
+      },
+      {
+        id: 3,
+        name: 'john',
       },
     ]);
   }
