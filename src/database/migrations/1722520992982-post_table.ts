@@ -38,7 +38,6 @@ export class PostTable1722520992982 implements MigrationInterface {
         referencedColumnNames: ['id'],
         referencedTableName: 'users',
         onDelete: 'CASCADE', // Specify behavior on delete
-        onUpdate: 'CASCADE', // Specify behavior on update
       }),
     );
   }
